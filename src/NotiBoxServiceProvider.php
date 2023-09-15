@@ -17,9 +17,6 @@ class NotiBoxServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-noti-box')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-noti-box_table')
-            ->hasCommand(NotiBoxCommand::class);
+            ->hasConfigFile();
     }
 }

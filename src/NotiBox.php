@@ -28,7 +28,7 @@ class NotiBox
         return $this;
     }
 
-    public function send()
+    public function send(): bool
     {
         if (empty($this->channel)) {
             throw new ChannelNotSetException('Channel is not set');
