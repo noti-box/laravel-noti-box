@@ -3,8 +3,8 @@
 namespace NotiBox\NotiBox\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use NotiBox\NotiBox\NotiBoxServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
