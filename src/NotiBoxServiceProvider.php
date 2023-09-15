@@ -2,7 +2,6 @@
 
 namespace NotiBox\NotiBox;
 
-use NotiBox\NotiBox\Commands\NotiBoxCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
