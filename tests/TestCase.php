@@ -2,7 +2,6 @@
 
 namespace NotiBox\NotiBox\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use NotiBox\NotiBox\NotiBoxServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
