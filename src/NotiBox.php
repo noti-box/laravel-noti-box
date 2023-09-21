@@ -1,12 +1,12 @@
 <?php
 
-namespace NotiBox\NotiBox;
+namespace NotiBox;
 
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Support\Facades\Http;
-use NotiBox\NotiBox\Exceptions\ChannelNotSetException;
-use NotiBox\NotiBox\Exceptions\NoMessageException;
+use NotiBox\Exceptions\ChannelNotSetException;
+use NotiBox\Exceptions\NoMessageException;
 
 class NotiBox
 {
@@ -42,7 +42,7 @@ class NotiBox
 
         try {
             $response = Http::post($endpoint, [
-                'message' => $this->message,
+                'content' => $this->message,
             ]);
         } catch (ConnectionException|RequestException $e) {
             throw new Exceptions\ConnectionException($e->getMessage());

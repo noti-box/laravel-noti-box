@@ -1,6 +1,6 @@
 <?php
 
-namespace NotiBox\NotiBox\Exceptions;
+namespace NotiBox\Exceptions;
 
 use Exception;
 

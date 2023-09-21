@@ -1,6 +1,6 @@
 <?php
 
-namespace NotiBox\NotiBox;
+namespace NotiBox;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

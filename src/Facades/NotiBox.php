@@ -1,16 +1,16 @@
 <?php
 
-namespace NotiBox\NotiBox\Facades;
+namespace NotiBox\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \NotiBox\NotiBox\NotiBox
+ * @see \NotiBox\NotiBox
  */
 class NotiBox extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \NotiBox\NotiBox\NotiBox::class;
+        return \NotiBox\NotiBox::class;
     }
 }

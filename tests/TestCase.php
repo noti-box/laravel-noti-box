@@ -1,8 +1,8 @@
 <?php
 
-namespace NotiBox\NotiBox\Tests;
+namespace NotiBox\Tests;
 
-use NotiBox\NotiBox\NotiBoxServiceProvider;
+use NotiBox\NotiBoxServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

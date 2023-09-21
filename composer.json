@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NotiBox\\NotiBox\\": "src/",
-            "NotiBox\\NotiBox\\Database\\Factories\\": "database/factories/"
+            "NotiBox\\": "src/",
+            "NotiBox\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotiBox\\NotiBox\\Tests\\": "tests/",
+            "NotiBox\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -69,10 +69,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NotiBox\\NotiBox\\NotiBoxServiceProvider"
+                "NotiBox\\NotiBoxServiceProvider"
             ],
             "aliases": {
-                "NotiBox": "NotiBox\\NotiBox\\Facades\\NotiBox"
+                "NotiBox": "NotiBox\\Facades\\NotiBox"
             }
         }
     },
