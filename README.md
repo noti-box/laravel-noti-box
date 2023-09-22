@@ -23,6 +23,8 @@ composer require noti-box/laravel-noti-box
 ## Usage
 
 ```php
+use NotiBox\Facades\NotiBox;
+
 NotiBox::channel('UUID')
     ->message('My message to read out.')
     ->send();
